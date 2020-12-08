@@ -146,3 +146,27 @@ db[id="cambodiancenterforbamboostudies/khmer/consonants"] =
   name: "consonants"
 #
 #end of story
+
+db[id="ccbs.nia.edu.kh/khmer/consonants"] =
+  title: "consonants"
+  slug: "consonants"
+  category: "khmer"
+  site: "cambodiancenterforbamboostudies"
+  accepted: false
+  index: false
+  sourcePath: ""
+  headlines: []
+  tags: []
+  snippets: "{\"first name\":\"first name\"}"
+  memberOf: []
+  created: "2020-01-21T00:06:42.740Z"
+  lastEdited: "2020-01-21T00:06:42.741Z"
+  published: "2020-01-21T00:06:42.741Z"
+  embargo: "2020-01-21T00:06:42.741Z"
+  captureDate: "2020-01-21T00:06:42.741Z"
+  TimeStamp: 1579565202741
+  debug: ""
+  author: ""
+  id: "ccbs.nia.edu.kh/khmer/consonants"
+  name: "consonants"
+#

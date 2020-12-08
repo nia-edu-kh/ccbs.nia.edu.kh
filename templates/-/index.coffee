@@ -82,3 +82,27 @@ db[id="cambodiancenterforbamboostudies/-/index"] =
   id: "cambodiancenterforbamboostudies/-/index"
   name: "index"
 #
+
+db[id="ccbs.nia.edu.kh/-/index"] =
+  title: "index"
+  slug: "index"
+  category: "-"
+  site: "cambodiancenterforbamboostudies"
+  accepted: true
+  index: false
+  sourcePath: ""
+  headlines: []
+  tags: []
+  snippets: "{\"first name\":\"first name\"}"
+  memberOf: []
+  created: "2020-01-15T04:14:51.570Z"
+  lastEdited: "2020-01-15T04:14:51.571Z"
+  published: "2020-01-15T04:14:51.571Z"
+  embargo: "2020-01-15T04:14:51.571Z"
+  captureDate: "2020-01-15T04:14:51.571Z"
+  TimeStamp: 1579061691571
+  debug: ""
+  author: ""
+  id: "ccbs.nia.edu.kh/-/index"
+  name: "index"
+#

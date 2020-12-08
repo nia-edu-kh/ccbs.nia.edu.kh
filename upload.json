@@ -1,0 +1,33 @@
+{
+  "name": "bamboosnow",
+  "version": "1.7.1",
+  "description": "Original Disclosure of Bamboo Snow - making, attributes and using",
+  "main": "site.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/gulp start -f node_modules/site-master/gulpfile.coffee",
+    "watch": "node_modules/.bin/gulp watch -f node_modules/site-master/gulpfile.coffee",
+    "dist": "rsync -zrvh public/* root@box.cambodianbamboostudies.com:/home/user-data/www/cambodianbamboostudies.com;rsync -zrvh public/* root@box.cambodianbamboostudies.com:/home/user-data/www/ccbs.nia.edu.kh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahbini/bamboosnow.git"
+  },
+  "keywords": [
+    "bamboo",
+    "organic",
+    "cleaning",
+    "insulating",
+    "anti-bacterial",
+    "commodity",
+    "hygiene"
+  ],
+  "author": "James A. Hinds",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/BambooJim/bamboosnow#readme",
+  "dependencies": {
+    "font-face-observer": "^1.0.0",
+    "site-master": "^1.1.1",
+    "underscore": "^1.8.3"
+  }
+}

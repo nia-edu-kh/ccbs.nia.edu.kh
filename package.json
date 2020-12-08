@@ -1,0 +1,28 @@
+{
+  "name": "cambodiancenterforbamboostudies",
+  "version": "1.1.1",
+  "description": "Original Disclosure of Bamboo Snow - making, attributes and using",
+  "main": "site.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "rsync -zrvh public/* root@box.cambodianbamboostudies.com:/home/user-data/www/cambodianbamboostudies.com;rsync -zrvh public/* root@box.cambodianbamboostudies.com:/home/user-data/www/ccbs.nia.edu.kh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahbini/ccbs.nia.edu.kh.git"
+  },
+  "keywords": [
+    "bamboo",
+    "organic",
+    "cleaning",
+    "insulating",
+    "anti-bacterial",
+    "commodity",
+    "hygiene"
+  ],
+  "author": "James A. Hinds",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}

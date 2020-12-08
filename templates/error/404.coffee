@@ -1,5 +1,5 @@
 # #-------- class start
-renderer = class  index extends bamboosnowtemplate
+renderer = class  index extends cambodiancenterforbamboostudies
   # 
   # section html
   # 
@@ -84,11 +84,11 @@ db[id="bamboosnowerror404"] =
 
 
 
-db[id="bamboosnow/error/404"] =
+db[id="ccbs.nia.edu.kh/error/404"] =
   title: "404"
   slug: "404"
   category: "error"
-  site: "bamboosnow"
+  site: "ccbs.nia.edu.kh"
   accepted: true
   index: false
   headlines: []
@@ -103,6 +103,6 @@ db[id="bamboosnow/error/404"] =
   TimeStamp: 1520225194621
   debug: ""
   author: "Copyright 2010-2018 James A. Hinds: Bubba Baba Bamboo Jim"
-  id: "bamboosnow/error/404"
+  id: "ccbs.nia.edu.kh/error/404"
   name: "404"
 #

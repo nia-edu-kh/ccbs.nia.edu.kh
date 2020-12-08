@@ -71,34 +71,12 @@ db = {} unless db
 
 #
 
-db[id="cambodiancenterforbamboostudies/journal/December-6-2020"] =
-  title: "December-6-2020"
-  slug: "December-6-2020"
-  category: "journal"
-  site: "cambodiancenterforbamboostudies"
-  accepted: true
-  index: false
-  sourcePath: ""
-  headlines: []
-  tags: []
-  snippets: "{\"first name\":\"first name\"}"
-  memberOf: []
-  created: "2020-12-06T05:40:27.746Z"
-  lastEdited: "2020-12-06T05:40:27.746Z"
-  published: "2020-12-06T05:40:27.746Z"
-  embargo: "2020-12-06T05:40:27.746Z"
-  captureDate: "2020-12-06T05:40:27.747Z"
-  TimeStamp: 1607233227747
-  debug: ""
-  author: ""
-  id: "cambodiancenterforbamboostudies/journal/December-6-2020"
-  name: "December-6-2020"
-#
+
 db[id="ccbs.nia.edu.kh/journal/December-6-2020"] =
   title: "December-6-2020"
   slug: "December-6-2020"
   category: "journal"
-  site: "cambodiancenterforbamboostudies"
+  site: "ccbs.nia.edu.kh"
   accepted: true
   index: false
   sourcePath: ""

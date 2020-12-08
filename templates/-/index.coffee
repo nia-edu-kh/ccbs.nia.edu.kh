@@ -59,11 +59,11 @@ db = {} unless db
 #
 
 
-db[id="cambodiancenterforbamboostudies/-/index"] =
+db[id="ccbs.nia.edu.kh/-/index"] =
   title: "index"
   slug: "index"
   category: "-"
-  site: "cambodiancenterforbamboostudies"
+  site: "ccbs.nia.edu.kh"
   accepted: true
   index: false
   sourcePath: ""
@@ -79,15 +79,17 @@ db[id="cambodiancenterforbamboostudies/-/index"] =
   TimeStamp: 1579061691571
   debug: ""
   author: ""
-  id: "cambodiancenterforbamboostudies/-/index"
+  id: "ccbs.nia.edu.kh/-/index"
   name: "index"
 #
+
+
 
 db[id="ccbs.nia.edu.kh/-/index"] =
   title: "index"
   slug: "index"
   category: "-"
-  site: "cambodiancenterforbamboostudies"
+  site: "ccbs.nia.edu.kh"
   accepted: true
   index: false
   sourcePath: ""

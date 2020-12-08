@@ -51,7 +51,7 @@ module.exports = class cambodiancenterforbamboostudiestemplate
         T.script src: "mystories.json"
         T.script src: "assets/js/vendor.js", "-content--type": "text/javascript", "-content--encoding": "gzip"
         T.script src: "assets/js/app.js", "-content--type": "text/javascript", "-content--encoding": "gzip"
-        T.script "siteHandle = 'cambodiancenterforbamboostudies'; topDomain = 'cambodiancenterforbamboostudies.com'; require('initialize');"
+        T.script "siteHandle = 'ccbs.nia.edu.kh'; topDomain = 'ccbs.nia.edu.kh'; require('initialize');"
         T.style '',"""#cover {
   top: 0;
   left: 0;

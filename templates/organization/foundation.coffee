@@ -85,35 +85,13 @@ db = {} unless db
 # ------- db start
 
 #
-db[id="cambodiancenterforbamboostudies/organization/foundation"] =
-  title: "foundation"
-  slug: "foundation"
-  category: "organization"
-  site: "cambodiancenterforbamboostudies"
-  accepted: true
-  index: false
-  sourcePath: ""
-  headlines: []
-  tags: []
-  snippets: "{\"first name\":\"first name\"}"
-  memberOf: []
-  created: "2020-01-26T06:10:36.899Z"
-  lastEdited: "2020-01-26T06:10:36.900Z"
-  published: "2020-01-26T06:10:36.900Z"
-  embargo: "2020-01-26T06:10:36.900Z"
-  captureDate: "2020-01-26T06:10:36.900Z"
-  TimeStamp: 1580019036900
-  debug: ""
-  id: "cambodiancenterforbamboostudies/organization/foundation"
-  name: "foundation"
-#
-#end of story
+
 
 db[id="ccbs.nia.edu.kh/organization/foundation"] =
   title: "foundation"
   slug: "foundation"
   category: "organization"
-  site: "cambodiancenterforbamboostudies"
+  site: "ccbs.nia.edu.kh"
   accepted: true
   index: false
   sourcePath: ""

@@ -1,14 +1,18 @@
 results:
   -
-    id: cambodiancenterforbamboostudies/-/index
+    id: ccbs.nia.edu.kh/-/index
     name: index
-    fields: {title: index, slug: index, category: '-', site: cambodiancenterforbamboostudies, accepted: true, index: false, sourcePath: "", headlines: [], tags: [], snippets: '{"first name":"first name"}', memberOf: [], created: '2020-01-15T04:14:51.570Z', lastEdited: '2020-01-15T04:14:51.571Z', published: '2020-01-15T04:14:51.571Z', embargo: '2020-01-15T04:14:51.571Z', captureDate: '2020-01-15T04:14:51.571Z', TimeStamp: 1579061691571, debug: "", author: ""}
+    fields: {title: index, slug: index, category: '-', site: ccbs.nia.edu.kh, accepted: true, index: false, sourcePath: "", headlines: [], tags: [], snippets: '{"first name":"first name"}', memberOf: [], created: '2020-01-15T04:14:51.570Z', lastEdited: '2020-01-15T04:14:51.571Z', published: '2020-01-15T04:14:51.571Z', embargo: '2020-01-15T04:14:51.571Z', captureDate: '2020-01-15T04:14:51.571Z', TimeStamp: 1579061691571, debug: "", author: ""}
   -
-    id: cambodiancenterforbamboostudies/khmer/consonants
+    id: ccbs.nia.edu.kh/khmer/consonants
     name: consonants
-    fields: {title: consonants, slug: consonants, category: khmer, site: cambodiancenterforbamboostudies, accepted: false, index: false, sourcePath: "", headlines: [], tags: [], snippets: '{"first name":"first name"}', memberOf: [], created: '2020-01-21T00:06:42.740Z', lastEdited: '2020-01-21T00:06:42.741Z', published: '2020-01-21T00:06:42.741Z', embargo: '2020-01-21T00:06:42.741Z', captureDate: '2020-01-21T00:06:42.741Z', TimeStamp: 1579565202741, debug: "", author: ""}
+    fields: {title: consonants, slug: consonants, category: khmer, site: ccbs.nia.edu.kh, accepted: false, index: false, sourcePath: "", headlines: [], tags: [], snippets: '{"first name":"first name"}', memberOf: [], created: '2020-01-21T00:06:42.740Z', lastEdited: '2020-01-21T00:06:42.741Z', published: '2020-01-21T00:06:42.741Z', embargo: '2020-01-21T00:06:42.741Z', captureDate: '2020-01-21T00:06:42.741Z', TimeStamp: 1579565202741, debug: "", author: ""}
   -
-    id: cambodiancenterforbamboostudies/organization/foundation
+    id: ccbs.nia.edu.kh/organization/foundation
     name: foundation
-    fields: {title: foundation, slug: foundation, category: organization, site: cambodiancenterforbamboostudies, accepted: true, index: false, sourcePath: "", headlines: [], tags: [], snippets: '{"first name":"first name"}', memberOf: [], created: '2020-01-26T06:10:36.899Z', lastEdited: '2020-01-26T06:10:36.900Z', published: '2020-01-26T06:10:36.900Z', embargo: '2020-01-26T06:10:36.900Z', captureDate: '2020-01-26T06:10:36.900Z', TimeStamp: 1580019036900, debug: "", author: ""}
-count: 3
+    fields: {title: foundation, slug: foundation, category: organization, site: ccbs.nia.edu.kh, accepted: true, index: false, sourcePath: "", headlines: [], tags: [], snippets: '{"first name":"first name"}', memberOf: [], created: '2020-01-26T06:10:36.899Z', lastEdited: '2020-01-26T06:10:36.900Z', published: '2020-01-26T06:10:36.900Z', embargo: '2020-01-26T06:10:36.900Z', captureDate: '2020-01-26T06:10:36.900Z', TimeStamp: 1580019036900, debug: "", author: ""}
+  -
+    id: ccbs.nia.edu.kh/journal/December-6-2020
+    name: December-6-2020
+    fields: {title: December-6-2020, slug: December-6-2020, category: journal, site: ccbs.nia.edu.kh, accepted: true, index: false, sourcePath: "", headlines: [], tags: [], snippets: '{"first name":"first name"}', memberOf: [], created: '2020-01-26T06:10:36.899Z', lastEdited: '2020-01-26T06:10:36.900Z', published: '2020-01-26T06:10:36.900Z', embargo: '2020-01-26T06:10:36.900Z', captureDate: '2020-01-26T06:10:36.900Z', TimeStamp: 1580019036900, debug: "", author: ""}
+count: 4

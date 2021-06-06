@@ -1,5 +1,5 @@
 # #-------- class start
-renderer = class  index extends cambodiancenterforbamboostudiestemplate
+renderer = class  index extends siteTemplate
   #
   # section storyHeadMatter
   #

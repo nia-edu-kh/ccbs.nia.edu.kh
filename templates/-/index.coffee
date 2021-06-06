@@ -39,6 +39,9 @@ newly formed Cambodian Center for Bamboo Studies -- """
         T.raw """We are tasked with uncovering knowledge of the uses of bamboo and bamboo by-products for the people of Cambodia.
  Our first focus will be on the by-product created by the Dinoderus Minutus """
         T.a href: "https://bamboosnow.com/", => T.raw "Bamboo Snow."
+      T.p =>
+        T.raw """Getting serious about production """
+        T.a href: "spring-2021/index.html", ->T.text "Now!"
   # 
   # section sidecar
   # 

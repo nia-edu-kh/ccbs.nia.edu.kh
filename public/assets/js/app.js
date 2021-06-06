@@ -1642,7 +1642,36 @@ module.exports = Model = class Model extends Backbone.Model.extend({
 
 });
 
-;require.register("models/stories.coffee", function(exports, require, module) {
+;require.register("models/navigation.coffee", function(exports, require, module) {
+var Model, Navigation;
+
+Model = require('./base/model.coffee');
+
+'use strict';
+
+module.exports = Navigation = (function() {
+  class Navigation extends Model {};
+
+  Navigation.prototype.defaults = {
+    items: [
+      {
+        href: '/',
+        title: 'Likes Browser'
+      },
+      {
+        href: '/posts',
+        title: 'Wall Posts'
+      }
+    ]
+  };
+
+  return Navigation;
+
+}).call(this);
+
+});
+
+require.register("models/stories.coffee", function(exports, require, module) {
 var Collection, Stories, Story,
   boundMethodCheck = function(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new Error('Bound instance method accessed before binding'); } };
 
@@ -1724,7 +1753,20 @@ module.exports = Story = class Story extends Model {
 
 });
 
-require.register("routes.coffee", function(exports, require, module) {
+require.register("models/user.coffee", function(exports, require, module) {
+var Model, User;
+
+Model = require('./base/model.coffee');
+
+'use strict';
+
+module.exports = User = class User extends Model {};
+
+// This model is intentionally left blank
+
+});
+
+;require.register("routes.coffee", function(exports, require, module) {
 'use strict';
 var routes;
 

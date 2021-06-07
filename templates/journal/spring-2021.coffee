@@ -31,12 +31,9 @@ renderer = class index extends siteTemplate
   # 
   bloviation: =>
     T.div "#bloviation.contents", =>
-      T.p =>
-        T.raw "put your text here"
-        T.a href: "/announcement/two-years-with-bamboo-snow.html", => T.raw "incredible life with Bamboo Snow."
       T.p "At the end of May, 2021, the status of the bamboo Snow is as follows:"
 
-      T.p """I have installed temperature and humidity monitoring equipment and computer monitoring including reporting to a cloud based server to show current and historical data.
+      T.p """The CCBS has installed temperature and humidity monitoring equipment and computer monitoring including reporting to a cloud based server to show current and historical data.
 """
       T.p """The sticks cut last year are dry and currently non-productive.  An attempt is underway to see if the insect activity can be revived.  Currently they still produce no Snow, save one or two producing trace amounts.
 """
@@ -50,7 +47,7 @@ renderer = class index extends siteTemplate
 """
       T.p """The new air cooler is excellent at adding water vapor to the air, and the humidity log for the past several days shows this.  Earlier attempts with towels, sprays or mists had failed.
 """
-      T.p """I feel that we are months ahead of last year’s skimpy production and, with care, will have a continual harvest of Bamboo Snow.
+      T.p """We are months ahead of last year’s skimpy production and, with care, will have a continual harvest of Bamboo Snow.
 """
       T.div '.container',->
         T.div '.row', ->

@@ -1,0 +1,2 @@
+HalvallaFigure image: "journal/spring-2021/hatchery.jpeg",footerText:"Looking for newly emerged adults",headerText:"The Hatchery",content: ->
+  T.p "Sande Kemokai inspects existing bamboo to see if adult Dinoderus Minutus have started to turn the bamboo into precious Bamboo Snow\n\n wow\n\n more!"

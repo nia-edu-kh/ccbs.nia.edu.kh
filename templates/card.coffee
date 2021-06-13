@@ -35,3 +35,20 @@ HalvallaCard = T.bless class cardComponent extends T.Component
               activity = '' + (b.active && 'c-button-active')
               style = "btn-" + (b.style ||  '')
               T.button ".btn.btn-group.#{activity}#{style}"
+
+# crd component
+#
+HalvallaFigure = T.bless class figureComponent extends T.Component
+  view: (card)=>  # T.render =>
+    @id=if card.id? then "#"+card.id else ''
+    @image =card.image
+    @headerText = card.headerText
+    @text = card.text || card.content || ""
+    @footerText = card.footerText
+    classes = card.classes?.replace /\s/g,'.'   # change space delimiters with dot .
+    classes = '' unless classes?
+    T.tag "figure",".figure",=>
+      T.h2 @headerText if @headerText
+      T.img ".figure-img.img-fluid.z-depth-1", src: @image if @image
+      T.tag "figcaption.text-right", @footerText if @footerText
+      @text if @text

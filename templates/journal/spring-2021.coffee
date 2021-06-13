@@ -52,9 +52,11 @@ renderer = class index extends siteTemplate
       T.div '.container',->
         T.div '.row', ->
           T.div '.col-sm',->
-            T.img '.col-sm', src:"journal/spring-2021/curing-room.jpeg"
+            #include curing-room.coffee
+            #T.img '.col-sm', src:"journal/spring-2021/curing-room.jpeg"
           T.div '.col-sm',->
-            T.img '.col-sm', src: "journal/spring-2021/hatchery.jpeg"
+            #include hatchery.coffee
+
       
   # 
   # section sidecar

@@ -1645,7 +1645,7 @@ module.exports = Model = class Model extends Backbone.Model.extend({
 ;require.register("models/navigation.coffee", function(exports, require, module) {
 var Model, Navigation;
 
-Model = require('./base/model.coffee');
+Model = require('../models/base/model.coffee');
 
 'use strict';
 
@@ -1756,7 +1756,7 @@ module.exports = Story = class Story extends Model {
 require.register("models/user.coffee", function(exports, require, module) {
 var Model, User;
 
-Model = require('./base/model.coffee');
+Model = require('../models/base/model.coffee');
 
 'use strict';
 
